@@ -5,6 +5,7 @@ body {
   background-position-y: center;
   background-attachment: fixed;
   background-size: cover;
+  background-image: url('back.jpg');
 }
 
 #tartalom {
@@ -27,6 +28,7 @@ body {
   margin-left: 20px;
   margin-bottom: 20px;
   background-color:  rgba(227, 235, 233, 0.8);
+  border: 5px solid rgba(0, 15, 233, 0.5);
 }
 
 .kepkeret img {
@@ -44,8 +46,34 @@ h1, h2 {
 p.kepfelirat {
   font-size: 1.1em;
   margin: 0px;
+  font-style: italic;
+  text-align: center;
+  line-height: 140%;
 }
 
 p {
   text-align: justify;
+}
+
+.kiemelt
+{
+  font-weight: bold;
+}
+
+h3
+{
+  font-style: italic;
+  text-indent: 10px;
+}
+
+a, a:visited
+{
+  text-decoration: none;
+  color: yellow;
+}
+a:hover
+{
+  color: red;
+  text-decoration: none;
+
 }
